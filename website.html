@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel="stylesheet">
+    <title>Idan Yehiel</title>
+</head>
+
+<body id="page-top">
+    <!-- Navigation -->
+    <div class="logo">
+        <img src="images/mynamelogo.png" alt="Idan Yehiel" class="center">
+    </div>
+
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#education">Education</a>
+        <a href="#employment">Employment</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contact">Contact Me</a>
+    </div>
+
+    <!-- About Section -->
+    <div class="content">
+        <div class="about" id="about">
+            <div class="about-me">
+                <div class="mypic"><img src="images/myphotonew.png" alt="Idan Yehiel" width="250" height="250">
+                </div>
+                <p class="about-me-par">Hello!<br>I'm Idan Yehiel</style><br>A 2nd year
+                    Computer Science Student in
+                    the International Track at
+                    Reichman Universty.<br> I'm 23 years old and I live in Kfar Netter, a moshav in the Hof HaSharon
+                    District
+                    next
+                    to
+                    Netanya.</p>
+            </div>
+
+            <div class="background">
+                <h3>Background</h3>
+                <p>I lived abroad with my family for three years in India, there I studied at the Canadian
+                    International School.<br>
+                    We returned to Israel in the third grade and studied four years
+                    at the American International School in Even Yehuda.<br>
+                    I transitioned to Hof HaSharon School in middle school
+                    and graduated high school there.</p>
+            </div>
+        </div>
+
+        <div class="text">
+            <!-- education -->
+            <div class="education" id="education">
+                <h2>Education</h2>
+                <p>I studied at Hof HaSharon High School in Shefayim and graduated with honors. I majored in Computer
+                    Science, Psychology and Sociology.<br>
+                    After the army, I took a Python course through <a href="https://she-codes.org/" target="_blank">"She
+                        Codes"</a>, a non profit promoting women in the hightech and coding industry.
+                </p>
+                <p>I studied Biology and American Studies at Tel Aviv University for a year and then started my studies
+                    at
+                    Reichman University.</p>
+            </div>
+
+            <!-- employment -->
+            <div class="employment" id="employment">
+                <h2>Employment</h2>
+                <h3>Various Temporary Jobs</h3>
+                <p>Worked as a convention attendant, a restaurant waitress, a summer camp counselor.<br>
+                    I have a <a href="https://www.instagram.com/hair_by_idan/" target="_blank">hairstyling business for
+                        events and special occasions</a>.
+                </p>
+                <h3>Army Service</h3>
+                <p>I served at the Northern Boarder as an Observer in the Field Intelligence Corps.<br>
+                    <a href="https://goo.gl/maps/pkVnCXTCat13DRbv8" target="_blank" style="font-size: 12px;">*Click here
+                        to see the location of my base*</a>
+                </p>
+            </div>
+
+            <!-- hobbies -->
+            <div class="hobbies" id="hobbies">
+                <h2>Hobbies</h2>
+                <p>I like to dance, workout, bake and play the piano.</p>
+                <div class="row">
+                    <div class="column">
+                        <div class="salsame">
+                            <img src="images/salsadancingme.JPG" alt="Salsa" style="    width: 60%;">
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <figure class="salsagroup">
+                            <img src="images/salsagroup.JPG" alt="Salsa Group" style="width: 100%;">
+                            <figcaption style="padding-top: 2.25%; font-size: 12px;">My Salsa friends and I (top row, in
+                                the middle)
+                            </figcaption>
+                        </figure>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- contact form -->
+            <script src="validation.js"></script>
+            <div class="contact" id="contact">
+                <h2>Contact Me</h2>
+                <form id="myForm" onsubmit="return bigvalidation()" method="post"
+                    action="mailto:idanyehiel@gmail.com?subject=Contacting via Website" enctype="text/plain"
+                    style="padding-top: 1.4%;">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="fname" placeholder="Your name..">
+
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lname" placeholder="Your last name..">
+
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Your email..">
+
+                    <label for="message">Your message</label>
+                    <select id="message" name="message">
+                        <option value="general">General</option>
+                        <option value="resume">Review Resume</option>
+                        <option value="info">Get more information</option>
+                    </select>
+
+                    <label for="subject"></label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."
+                        style="height:200px"></textarea>
+
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p class="footer-text-left">
+            <a href="#page-top" class="menu">Home</a>
+        </p>
+
+        <div class="footer-content-right">
+            <a href="https://github.com/idanye" target="_blank"><img src="images/github.jpeg" class="icon-style"
+                    alt="Github icon"></a>
+            <a href="https://www.linkedin.com/in/idan-yehiel-043153236/" target="_blank"><img
+                    src="images/icon-linkedin.svg" class="icon-style" alt="linkedIn Icon"></a>
+            <a href="https://www.facebook.com/idan.yehiel.7" target="_blank"><img src="images/icon-facebook.svg"
+                    class="icon-style" alt="facebook Icon"></a>
+        </div>
+
+    </div>
+</body>
+
+</html>

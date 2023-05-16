@@ -1,0 +1,645 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  * body {
+    background-color:#ffffff;
+    display: flex;
+    margin: 8px;
+  }
+  
+  .text {
+    display: initial;
+  }
+
+  p {
+    margin: 8px;
+    margin-left: 20px;
+    line-height: 2;
+  }
+
+  h1 {
+    color:#69495E;
+    margin-left: 10px;
+    font: inherit;
+    font-size: 2.125em;
+
+  }
+
+  h2 {
+    color:#705466;
+    margin-left: 10px;
+    font: inherit;
+    font-size: 1.75em;
+  }
+  
+  h3 {
+    color:#705466;
+    margin-left: 10px;
+    font: inherit;
+    font-size: 1.25em;
+  }
+
+  .logo {
+    padding-bottom: 1.75%;
+    padding-top: 0.5%;
+    width: 100%;
+  }
+
+  .logo img {
+    float: center;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align:middle
+  }
+
+  .background {
+    display: initial;
+  }
+  
+  img .mypic {
+    height: auto;
+    width: 60%;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  figcaption {
+    padding: 2px;
+    text-align: center;
+  }
+
+  figure.salsagroup{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .salsame{
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+  }
+
+  /* Add a pink background color to the top navigation */
+  .topnav {
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #666;
+    text-align: center;
+    padding: 1.5%;
+    text-decoration: none;
+    font-size: 1.0625em;
+    display: inline-flex;
+    margin: auto;
+    float: none;
+  }
+
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: #666;
+  }
+
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #e6ccb2;
+    color: white;
+  }
+
+  #wrapper{
+    width: 900px;
+    margin: 0px auto;
+  }
+
+  .text a{
+    text-decoration: none; /* remove underline */
+    color: inherit; /* remove blue */
+  }
+
+  .text a:hover {
+    background-color: #ddd;
+    color: #666;
+  }
+
+  /* Add a color to the active/current link */
+  .text a.active  {
+    background-color: #e6ccb2;
+    color: white;
+  }
+
+  /* Style inputs with type="text", select elements and textareas */
+  input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+  /* Styling the submit button with a specific background color */
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  /* When moving the mouse over the submit button, get a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  input[type=reset] {
+    background-color: #ccc;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=reset]:hover {
+    background-color: #ddd;
+  }
+
+  .content {
+    width: 100%;
+    display: initial;
+  }
+
+  form#myForm {
+    padding-bottom: 30px;
+    width: 60%;
+    text-align: left;
+    display: inline-block;
+  }
+
+  /* Add a background color and some padding around the form */
+  #contact.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border-top-width: 100px;
+    margin-top: 100px;
+    margin-left: 50px;
+  }
+
+  /* Footer */
+  .footer {
+    display: flex;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;;
+    margin-bottom: 0;
+    border: 2px solid #e0e0e0;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-text-left {
+    font-size: 1em;
+    padding-left: 100px;
+    float: left;
+    word-spacing: 20px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+
+  a.menu{
+    font-size: 1.25em;
+    color:#666;
+    text-decoration: none;
+  } 
+
+  a.menu:hover {
+    background-color:#e6ccb2;
+    font-size: 1.25em;
+    color:#666;
+    text-decoration: none;
+  }
+
+  a.menu:active {
+    background-color: #e6ccb2;
+    color: white;
+    text-decoration: none;
+
+  }
+
+  .footer-content-right {
+    padding-right:100px;
+    margin-top:10px;
+    float:right;
+    margin: 0;
+  }
+
+  .icon-style {
+    height:30px;
+    margin-left:20px;
+    margin-top:5px;
+  }
+
+  .icon-style:hover {
+    background-color: #e6ccb2;
+  }
+
+  .footer-middle {
+    text-align: center;
+    align-items: center;
+    color: inherit;
+    line-height: 0.7;
+    font-size: 1.0625em;
+    float: center;
+    margin-block: 2em;
+  }
+
+  img {
+    border-radius: 25px;
+    max-width:80%;
+    height:auto;
+  }
+
+  img .about-me-par {
+    flex-basis: 40%;
+    margin-left: 200px;
+  }
+
+  p.about-me-par {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+  }
+
+  .about-me {
+    flex-wrap: wrap;
+    padding-left: 0%;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    flex: 50%;
+    padding: 5px;
+  }
+
+}
+
+
+/* Desktop Design */
+html * {
+  line-height: 1;
+  font-family: Poppins;
+}
+
+.text {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 0px
+}
+
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z11lFd2JQEl8qw.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+
+* body {
+    background-color:#ffffff;
+    display: block;
+    margin: 8px;
+  }
+
+  p {
+    margin: 8px;
+    margin-left: 20px;
+    line-height: 2;
+  }
+
+  h1 {
+    color:#69495E;
+    margin-left: 10px;
+    font: inherit;
+    font-size: 2.125em;
+
+  }
+
+  h2 {
+    color:#705466;
+    margin-left: 10px;
+    font: inherit;
+    font-size: 1.75em;
+  }
+  
+  h3 {
+    color:#705466;
+    margin-left: 10px;
+    font: inherit;
+    font-size: 1.25em;
+  }
+
+  .logo {
+    padding-bottom: 1.75%;
+    padding-top: 0.5%;
+    width: 100%;
+  }
+
+  .logo img {
+    float: center;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align:middle
+  }
+
+  .background {
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 0;
+  }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  figcaption {
+    padding: 2px;
+    text-align: center;
+  }
+
+  figure.salsagroup{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .salsame{
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+  }
+
+/* Add a pink background color to the top navigation */
+.topnav {
+  border: 1px solid #e0e0e0;
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #666;
+  text-align: center;
+  padding: 1.5%;
+  text-decoration: none;
+  font-size: 1.0625em;
+  display: inline-flex;
+  margin: auto;
+  float: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #666;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #e6ccb2;
+  color: white;
+}
+
+#wrapper{
+  width: 900px;
+  margin: 0px auto;
+}
+
+.text a{
+	text-decoration: none; /* remove underline */
+	color: inherit; /* remove blue */
+}
+
+.text a:hover {
+  background-color: #ddd;
+  color: #666;
+}
+
+/* Add a color to the active/current link */
+.text a.active  {
+  background-color: #e6ccb2;
+  color: white;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Styling the submit button with a specific background color */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, get a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+input[type=reset] {
+  background-color: #ccc;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: #ddd;
+}
+
+.content {
+  width: 100%;
+}
+
+form#myForm {
+  padding-bottom: 30px;
+  width: 60%;
+  text-align: left;
+  display: inline-block;
+}
+
+/* Add a background color and some padding around the form */
+#contact.contact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  padding-top: 10px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  border-top-width: 100px;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* height: 50px; */
+  margin-bottom: 0;
+  border: 2px solid #e0e0e0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-text-left {
+  font-size: 1em;
+  padding-left: 100px;
+  float: left;
+  word-spacing: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+a.menu{
+  font-size: 1.25em;
+  color:#666;
+  text-decoration: none;
+} 
+
+a.menu:hover {
+  background-color:#e6ccb2;
+  font-size: 1.25em;
+  color:#666;
+  text-decoration: none;
+}
+
+a.menu:active {
+  background-color: #e6ccb2;
+  color: white;
+  text-decoration: none;
+
+}
+
+.footer-content-right {
+  padding-right:100px;
+  margin-top:10px;
+  float:right;
+  margin: 0;
+}
+
+.icon-style {
+  height:30px;
+  margin-left:20px;
+  margin-top:5px;
+}
+
+.icon-style:hover {
+  background-color: #e6ccb2;
+}
+
+.footer-middle {
+  text-align: center;
+  align-items: center;
+  color: inherit;
+  line-height: 0.7;
+  font-size: 1.0625em;
+  float: center;
+  margin-block: 2em;
+}
+
+img {
+  border-radius: 25px;
+  max-width:100%;
+  height:auto;
+}
+
+.mypic {
+  height: auto;
+  width: 60%;
+  justify-content: center;
+  display: flex;
+}
+
+p.about-me-par {
+  margin-right: 25%;
+    text-align: center;
+    font-size: 1.125em;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  padding-top: 3%;
+  padding-left: 25%;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
